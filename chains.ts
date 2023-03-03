@@ -65,7 +65,7 @@ type ChainConfig = { [chainId: number]: BasicChainInformation | ExtendedChainInf
 
 export const MAINNET_CHAINS: ChainConfig = {
   1: {
-    urls: ['https://cloudflare-eth.com'].filter(Boolean),
+    urls: ['https://cloudflare-eth.com'],
     name: 'Ethereum',
   },
   46: {
